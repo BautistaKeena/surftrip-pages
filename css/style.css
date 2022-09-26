@@ -18,22 +18,19 @@ html {
 /* MENU NAVEGADOR */
 
 .menu-logo{
-    height: 6em;    
-    margin-right: 3em;
-    margin-left: -10em;
+    height: 6em;
 }
 
 nav {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly
 }
 .menu-navegador li {
     list-style-type: none;
     font-family:'Poppins', sans-serif;
     font-weight: 500;
-    font-size: 1em;
-    margin: .4em;
+    font-size: 2.7vh;
     padding: 0 2em;
     display: inline-block;
 }
@@ -44,7 +41,7 @@ a{
 
 
 h1 {
-    font-size: 5em;
+    font-size: 5rem;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 100;
@@ -69,13 +66,19 @@ footer h3 {
     align-items: center;
     padding: 4em 5em 0em 5em;
 }
+footer a{
+    transition: 1s;
+}
+footer a:hover {
+    transform: scale(1.4,1.4);
+    color: rgb(104, 176, 188);
+}
 #copyright {
     background-color: #e9edc9;
     font-size: 0.3em;
     display: flex;
     justify-content: flex-end;
     padding: 10px 20px;
-
 }
 
 
@@ -89,18 +92,19 @@ footer h3 {
     padding: 180px;
     color: white;
     text-shadow: 2px 2px 4px black;
+    font-size: 12vh;
 }
 .home-article1 p {
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 3.5vh;
     font-weight: 200;
     margin: 0px 4em;
 }
 .home-article1 ol {
     text-align: left;
     font-family: 'Poppins', sans-serif;
-    font-size: 1.2em;
+    font-size: 3.5vh;
     font-weight: 200;
     margin: 3em 4em 5em 3em;
     list-style-type: disc;
@@ -108,7 +112,7 @@ footer h3 {
 .home-article1  h2{
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    font-size: 2.5em;
+    font-size: 8vh;
     font-weight: 200;
     margin-top: 2em;
     margin-bottom: 1em;
@@ -140,7 +144,7 @@ h3 {
 .surftrips-item img {
     border-radius: 2em;
     border: solid 5px #ccd5ae;
-    width: 370px;
+    width: 65vh;
 }
 
 .surftrips-contenedor p {
@@ -164,32 +168,35 @@ h3 {
     padding: 180px;
     color: white;
     text-shadow: 2px 2px 4px black;
+    font-size: 12vh;
 }
 .destinos-intro {
     text-align: center;
-    font-family: 'Poppins', sans-serif;
+    font-size: 3vh;
 }
 .destinos-main .destinos-intro  p {
-    font-size: 1.5em;
+    font-size: 5vh;
     font-weight: 300;
     padding: 40px;
     padding-bottom: 100px;
 }
 .destinos-intro h2 {
-    font-size: 3em;
+    font-size: 9vh;
     font-weight: 100;
     padding-top: 50px ;
     padding-bottom: 30px ;
 }
 .destinos-intro img {
-    padding: 0 30px;
+    padding: 0 5vh;
+    transition: 1s;
 }
-
+.destinos-intro img:hover {
+    transform: scale(1.3,1.3);
+}
 
 /*titulo continentes*/
 .destinos-paises h2 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 3.5em;
+    font-size: 10vh;
     text-align: center;
     font-weight: 100;
     background-color: #ccd5ae;
@@ -201,7 +208,7 @@ h3 {
 .destinos-main h3 {
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    font-size: 2em;
+    font-size: 5vh;
     font-style: italic;
     font-weight: 200;
     margin: 20px;
@@ -209,8 +216,7 @@ h3 {
 
 /*textos de cada pais*/
 .destinos-main p {
-    font-family: 'Poppins', sans-serif;
-    font-size: 0.7em;
+    font-size: 1.7vh;
     text-align: center;
     margin:30px 50px;
 }
@@ -225,8 +231,8 @@ h3 {
 .pais-data img {
     border-radius: 2em;
     border: solid 5px #ccd5ae;
-    width: 500px;
-    height: 320px;
+    width: 80vh;
+    height: 50vh;
 }
 
 
@@ -284,6 +290,13 @@ h3 {
     font-weight: 500;
     margin-top: 1em;
 }
+.equipo-item{
+    transition: 2s;
+}
+.equipo-item:hover {
+    transform: scale(1.3,1.3);
+}
+
 
 
 /*PAGINA INFOSURF*/
@@ -466,7 +479,105 @@ aside h6 {
 
 /* MOBILE FIRST */
 
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+    .home-main h1 {
+        font-size: 7vh;
+    }
+    .home-main h2 {
+        font-size: 6vh;
+    }
+    .home-main p {
+        font-size: 3vh;
+    }
+    .home-main ol {
+        font-size: 3vh;
+    }
+    .surftrips-item img {
+        width: 48vh;
+    }
+    .surftrips-item p {
+        font-size: 5vh;
+    }
+    .surftrips-contenedor{
+        display: inline;
+    }
+    .surftrips-contenedor p {
+        margin-bottom: 6em;
+        text-align: center;
+        font-size: 3vh;
+    }
+    .surftrips-text  {
+        margin-bottom: 2em;
+    }
+    #rrss a {
+        font-size: .3rem;
+        
+    }
+    .paises-contenedor {
+        display: inline;
+        padding: 3em;
+    }
+    .destinos-intro h2{
+        font-size: 4vh;
+    }
+    .destinos-paises h2 {
+        font-size: 5vh;
+    }
+    .pais-data h3 {
+        font-size: 3vh;
+    }
+    .pais-data p {
+        font-size: 1vh;
+    }
+    .pais-data img {
+        width: 30vh;
+        height: 20vh;
+    }
+    h1 {
+        font-size: 6vh;
+    }
+    .destinos-intro p {
+        font-size: 2;
+    }  
+    .destinos-intro h1{
+        font-size: 4vh;
+    }
+    .equipo-contenedor{
+        flex-direction: column;
+    }
+    .quienessomos-contenedor{
+        flex-direction: column;
+    }
+    .quienessomos-contenedor img{
+        width: 20em;
+    }
+    .quienessomos-contenedor p{
+        font-size: 1.2vh;
+        margin-top: 20px;
+    }
+    .historiasurf-contenedor {
+        flex-direction: column;
+    }
+    .reglassurf-contenedor {
+        flex-direction: column;
+    }
+    .tablassurf-contenedor {
+        flex-direction: column;
+    }
+    form {
+        font-size: 2vh;
+    }
+    .contacto-main h3 {
+        font-size: 1.3em;
+    }
+    textarea {
+        width: 200px;
+    }
     .grid-container {
         grid-template-columns: 1fr;
         grid-template-rows: 5em 35em 50em 80em 115em 5em;
@@ -479,8 +590,42 @@ aside h6 {
             "footer";
         grid-row-gap: 1em;
     }
+    #rrss{
+        text-align: center;
+        
+    }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1238px) {
+
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+    .surftrips-contenedor{
+        display: inline;
+    }
+    .surftrips-contenedor p {
+        margin-bottom: 6em;
+        text-align: center;
+        font-size: 3vh;
+    }
+    .surftrips-text  {
+        margin-bottom: 2em;
+    }
+    
+    #rrss a {
+        font-size: .3rem;
+        
+    }
+
+    .paises-contenedor {
+        display: inline;
+        padding: 3em;
+    }
+    
+    .destinos-paises h2 {
+        font-size: 8vh;
+    }
     .grid-container {
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: 5em 32em 50em 50em 115em 5em;
@@ -493,12 +638,18 @@ aside h6 {
             "footer footer";
         grid-row-gap: 1em;
     }
-
+    .destinos-intro h1{
+        font-size: 10vh;
+    }
     aside {
         margin: 1em;
     }
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1240px) and (max-width: 1680px){
+
+    footer {
+        width: 100%;
+    }
     .grid-container {
         grid-template-columns: repeat(3,1fr);
         grid-template-rows: 5em 32em 60em 60em 5em;
@@ -510,4 +661,4 @@ aside h6 {
             "footer footer footer";
         grid-row-gap: 1em;
     }
-}
+}  

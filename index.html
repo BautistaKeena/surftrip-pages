@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./assets/iconos/SURFLY.ico">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <title>SURFLY</title>
 </head>
@@ -16,13 +17,13 @@
             <a href="./index.html">
                 <img src="./assets/images/sufply logo VERDE AGUAcopy.png" alt="surflylogo" class="menu-logo" >
             </a>    
-                <ul class="menu-navegador">  
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="./pages/destinos.html">Destinos</a></li>  
-                    <li><a href="./pages/nosotros.html">Nosotros</a></li>  
-                    <li><a href="./pages/infosurf.html">Acerca del Surf</a></li>  
-                    <li><a href="./pages/contacto.html">Contacto</a></li>  
-                </ul>
+            <ul class="menu-navegador">  
+                <li><a href="#">Inicio</a></li>
+                <li><a href="./pages/destinos.html">Destinos</a></li>  
+                <li><a href="./pages/nosotros.html">Nosotros</a></li>  
+                <li><a href="./pages/infosurf.html">Acerca del Surf</a></li>  
+                <li><a href="./pages/contacto.html">Contacto</a></li>  
+            </ul>
         </nav>
     </header>
 
@@ -31,29 +32,29 @@
     
         <section>
             <article class="home-article1">
-                <h2>Nuestra Misión</h2>
+                <h2 data-aos="zoom-up" data-aos-duration="2000">Nuestra Misión</h2>
                 <p> Nuestra misión es hacer que los aficionados del surf viajen por todo el mundo conociendo las mejores playas y olas que tiene nuestro planeta, viviendo experiencias unicas y momentos inolvidables.</p>
-                <h2>Pasos a seguir para viajar con nosotros:</h2>
+                <h2 data-aos="zoom-up" data-aos-duration="2000">Pasos a seguir para viajar con nosotros:</h2>
                 <ol class="pasos-inicio">
                     <li>Elije tu destino de viaje según al continente que queres viajar. <a href="./pages/destinos.html">VER DESTINOS</a></li>
                     <li>Contactanos para que presupuestemos tu viaje, en la página de <a href="./pages/contacto.html">CONTACTO</a> podes dejarnos un mensaje.</li>
                     <li>Te vamos a responder con las especificaciones de tu viaje.</li>
                 </ol>
             </article>
-            <h3>SURFTRIPS</h3>
+            <h3 data-aos="zoom-up" data-aos-duration="3000" class="surftrips-text">SURFTRIPS</h3>
 
             <article class="home-article2">
                 <div class="surftrips-contenedor">
                     <div class="surftrips-item">
-                        <img src="./assets/images/fotossurf/fotocalidad10.jpeg" alt="">
+                        <img src="./assets/images/fotossurf/fotocalidad10.jpeg" alt="" >
                         <p>Mejora tu nivel surfeando por todo el mundo.</p>
                     </div>
                     <div class="surftrips-item">
-                        <img src="./assets/images/fotossurf/fotocalidad11.jpeg" alt="">
+                        <img src="./assets/images/fotossurf/fotocalidad11.jpeg" alt="" >
                         <p>Conoce un estilo de vida unico.</p>
                     </div>
                     <div class="surftrips-item">
-                        <img src="./assets/images/fotossurf/fotocalidad9.jpeg" alt="">
+                        <img src="./assets/images/fotossurf/fotocalidad9.jpeg" alt="" >
                         <p>Viaja a playas paradisiacas con las mejores olas.</p>
                     </div>
                 </div>
@@ -93,5 +94,9 @@
             <h3>Copyright</h3>
             </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
