@@ -408,6 +408,15 @@ aside h6 {
 
 .grid-container {
     display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 5em 32em 60em 60em 5em;
+    grid-template-areas: 
+            "menu menu menu"
+            "banner banner banner"
+            "contenido contenido shop"
+            "contenido contenido shop"
+            "footer footer footer";
+    grid-row-gap: 1em;
 }
 
 .header-grid{
@@ -477,9 +486,79 @@ aside h6 {
 }
 
 
-/* MOBILE FIRST */
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+
+
+
+/*RESPONSIVE DESIGN*/
+
+
+@media (max-width: 768px) /*Tablet*/{
+
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+    .surftrips-contenedor{
+        display: inline;
+    }
+    .surftrips-contenedor p {
+        margin-bottom: 6em;
+        text-align: center;
+        font-size: 3vh;
+    }
+    .surftrips-text  {
+        margin-bottom: 2em;
+    }
+    
+    #rrss a {
+        font-size: .3rem;
+        
+    }
+
+    .paises-contenedor {
+        display: inline;
+        padding: 3em;
+    }
+    
+    .destinos-intro h2 {
+        font-size: 1.7em;
+        padding: 2em 1em;
+    }
+    .pais-data img {
+        width: 490px;
+        height: 300px;
+    }
+    .pais-data p {
+        font-size: .8em;
+    }
+
+    .destinos-paises h2 {
+        font-size: 8vh;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 5em 32em 50em 50em 115em 5em;
+        grid-template-areas: 
+            "menu menu"
+            "banner banner"
+            "contenido contenido"
+            "contenido contenido"
+            "shop shop"
+            "footer footer";
+        grid-row-gap: 1em;
+    }
+    .destinos-intro h1{
+        font-size: 10vh;
+    }
+    aside {
+        margin: 1em;
+    }
+}
+
+
+@media (max-width: 576px) /*Mobile*/{
 
     nav {
         flex-direction: column;
@@ -595,70 +674,3 @@ aside h6 {
         
     }
 }
-@media screen and (min-width: 768px) and (max-width: 1238px) {
-
-    nav {
-        flex-direction: column;
-        text-align: center;
-    }
-    .surftrips-contenedor{
-        display: inline;
-    }
-    .surftrips-contenedor p {
-        margin-bottom: 6em;
-        text-align: center;
-        font-size: 3vh;
-    }
-    .surftrips-text  {
-        margin-bottom: 2em;
-    }
-    
-    #rrss a {
-        font-size: .3rem;
-        
-    }
-
-    .paises-contenedor {
-        display: inline;
-        padding: 3em;
-    }
-    
-    .destinos-paises h2 {
-        font-size: 8vh;
-    }
-    .grid-container {
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: 5em 32em 50em 50em 115em 5em;
-        grid-template-areas: 
-            "menu menu"
-            "banner banner"
-            "contenido contenido"
-            "contenido contenido"
-            "shop shop"
-            "footer footer";
-        grid-row-gap: 1em;
-    }
-    .destinos-intro h1{
-        font-size: 10vh;
-    }
-    aside {
-        margin: 1em;
-    }
-}
-@media screen and (min-width: 1240px) and (max-width: 1680px){
-
-    footer {
-        width: 100%;
-    }
-    .grid-container {
-        grid-template-columns: repeat(3,1fr);
-        grid-template-rows: 5em 32em 60em 60em 5em;
-        grid-template-areas: 
-            "menu menu menu"
-            "banner banner banner"
-            "contenido contenido shop"
-            "contenido contenido shop"
-            "footer footer footer";
-        grid-row-gap: 1em;
-    }
-}  
