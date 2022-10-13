@@ -1,0 +1,144 @@
+body{
+    .banner{
+        background-image: url(../assets/images/fotossurf/fotocalidad4.jpeg);
+        background-size: cover;
+        background-position: bottom;
+        padding: 180px;
+        color: white;
+        text-shadow: 2px 2px 4px black;
+        font-weight: 100;
+        font-size: 12vh;
+    }
+    .infosurf-main{
+        .infosurf-section{
+            .infosurf-article1{
+                .historiasurf-contenedor {
+                    display: flex;
+                    align-items: center;
+                    img{
+                        width: 50%;
+                        margin-left: 2em;
+                        object-fit: contain;
+                    }
+                    p{
+                        width: 50%;
+                        text-align: center;
+                        margin: 0 4em;
+                        font-size: 0.9em;
+                        font-weight: 200;
+                    }
+                }
+            }
+            h2{
+                font-size: 2.5em;
+                text-align: center;
+                margin: 3em 0 1em 0; 
+                font-weight: 400;
+                color: #ccd5ae;
+            }
+            .infosurf-article2{
+                .reglassurf-contenedor {
+                    display: flex;
+                    align-items: center;
+                    img{
+                        height: 20em;
+                        width: 50%;
+                        margin-right: 2em;
+                        object-fit: contain;
+                    }
+                    ul{
+                        width: 50%;
+                        margin: 0 4em;
+                        font-weight: 200;
+                        font-size: 0.9em;
+                        li{
+                            margin: .5em 0;
+                        }
+                    }
+                }
+            }
+            .infosurf-article3{
+                .tablassurf-contenedor{
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 5em;
+                    img{
+                        height: 20em;
+                        width: 50%;
+                        margin-left: 2em;
+                        object-fit: contain;
+                    }
+                    ul{
+                        width: 50%;
+                        margin: 0 4em;
+                        font-weight: 200;
+                        font-size: 0.9em;
+                        li{
+                            margin: .5em 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+aside {
+    text-align: center;
+    h3{
+        padding: 1.5em 3em;
+        margin-bottom: 1em;
+        background-image: url(../assets/images/tiendaaside/bannerboards.jpg);
+        color: white;
+        text-align: center;
+    }
+    h4{
+        margin-bottom: 2em;
+        font-size: 2em;
+        text-align: center;
+    }
+    h5{
+        border: solid 2px #ccd5ae;
+        border-radius: 1em;
+        padding: 0.5em;
+        text-align: center;
+        margin: 0 10em;
+        font-size: .7em;
+        font-weight: 500;
+    }
+    h6{
+        padding-top: 1em;
+        font-size: 10px;
+    }
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 0em 32em 60em 60em 5em;
+    grid-template-areas: 
+            "menu menu menu"
+            "banner banner banner"
+            "contenido contenido shop"
+            "contenido contenido shop"
+            "footer footer footer";
+    grid-row-gap: 1em;
+}
+
+.header-grid{
+    grid-area: menu;
+}
+.banner{
+    grid-area: banner;
+}
+.infosurf-main {
+    grid-area: contenido;
+}
+.aside-grid{
+    grid-area: shop;
+    border: solid 4px black;
+}
+.footer-grid{
+    grid-area: footer;
+}

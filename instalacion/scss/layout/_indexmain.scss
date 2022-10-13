@@ -1,0 +1,82 @@
+.home-main {
+    h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;    
+    background-image: url(../assets/images/indonesia/surfindonesia6.jpeg);
+    background-size: cover;
+    background-position: center ;
+    padding: 180px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    font-size: 12vh;
+    }
+    section {
+        .home-article1 {
+            p {
+                font-family: 'Poppins', sans-serif;
+                text-align: center;
+                font-size: 3.5vh;
+                font-weight: 200;
+                margin: 0px 4em;
+            }
+            ol {
+                text-align: left;
+                font-family: 'Poppins', sans-serif;
+                font-size: 3.5vh;
+                font-weight: 200;
+                margin: 3em 4em 5em 3em;
+                list-style-type: disc;
+            }
+            h2 {
+                font-family: 'Poppins', sans-serif;
+                text-align: center;
+                font-size: 8vh;
+                font-weight: 200;
+                margin-top: 2em;
+                margin-bottom: 1em;
+            }
+            ol {
+                a{
+                    color: #ccd5ae;
+                }
+            }
+        }
+        .surftrips-text{
+            font-weight: 600;
+            font-size: 2.3em;
+        }
+        h3 {
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            font-size: 2.5em;
+        }
+        .home-article2 {
+            p{
+                font-family: 'Poppins', sans-serif;
+                text-align: center;
+                font-size: .7em;
+            }
+            .surftrips-contenedor{
+                display: flex;
+                flex-direction: row;
+                text-align: center;
+                justify-content: space-evenly;
+                margin: 3em 0em 8em 0em;
+                .surftrips-item{
+                    img{
+                        border-radius: 2em;
+                        border: solid 5px #ccd5ae;
+                        width: 65vh;
+                    }
+                }
+                p{
+                    font-size: .8em;
+                    font-family:'Poppins', sans-serif;
+                    margin-top: 1em;
+                    color: #575848
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,477 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap");
+html {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+  html a {
+    text-decoration: none;
+    color: black; }
+  html h1 {
+    font-size: 5em;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100; }
+
+.home-main h1 {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  background-image: url(../assets/images/indonesia/surfindonesia6.jpeg);
+  background-size: cover;
+  background-position: center;
+  padding: 180px;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+  font-size: 12vh; }
+
+.home-main section .home-article1 p {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-size: 3.5vh;
+  font-weight: 200;
+  margin: 0px 4em; }
+
+.home-main section .home-article1 ol {
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  font-size: 3.5vh;
+  font-weight: 200;
+  margin: 3em 4em 5em 3em;
+  list-style-type: disc; }
+
+.home-main section .home-article1 h2 {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-size: 8vh;
+  font-weight: 200;
+  margin-top: 2em;
+  margin-bottom: 1em; }
+
+.home-main section .home-article1 ol a {
+  color: #ccd5ae; }
+
+.home-main section .surftrips-text {
+  font-weight: 600;
+  font-size: 2.3em; }
+
+.home-main section h3 {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-size: 2.5em; }
+
+.home-main section .home-article2 p {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-size: .7em; }
+
+.home-main section .home-article2 .surftrips-contenedor {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-evenly;
+  margin: 3em 0em 8em 0em; }
+  .home-main section .home-article2 .surftrips-contenedor .surftrips-item img {
+    border-radius: 2em;
+    border: solid 5px #ccd5ae;
+    width: 65vh; }
+  .home-main section .home-article2 .surftrips-contenedor p {
+    font-size: .8em;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1em;
+    color: #575848; }
+
+footer {
+  background-color: #e9edc9; }
+  footer #rrss {
+    background-color: #e9edc9;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    align-items: center;
+    padding: 4em 5em 0em 5em; }
+  footer h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline;
+    margin-left: .2em; }
+  footer a:hover {
+    transform: scale(1.4, 1.4);
+    color: #68b0bc; }
+  footer a {
+    transition: 1s; }
+  footer #copyright {
+    background-color: #e9edc9;
+    font-size: .3em;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px; }
+
+body .destinos-main .destinos-intro {
+  text-align: center;
+  font-size: 3vh; }
+  body .destinos-main .destinos-intro h1 {
+    background-image: url(../assets/images/fotossurf/fotocalidad8.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 180px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    font-size: 12vh;
+    font-weight: 100; }
+  body .destinos-main .destinos-intro p {
+    font-size: 5vh;
+    font-weight: 300;
+    padding: 40px;
+    padding-bottom: 100px; }
+  body .destinos-main .destinos-intro h2 {
+    font-size: 9vh;
+    font-weight: 100;
+    padding-top: 50px;
+    padding-bottom: 30px; }
+  body .destinos-main .destinos-intro img {
+    padding: 0 5vh;
+    transition: 1s; }
+  body .destinos-main .destinos-intro img:hover {
+    transform: scale(1.3, 1.3); }
+
+body .destinos-main .destinos-paises h2 {
+  font-size: 10vh;
+  text-align: center;
+  font-weight: 100;
+  font-family: 'Poppins', sans-serif;
+  background-color: #ccd5ae;
+  position: sticky;
+  top: -10px; }
+
+body .destinos-main .destinos-paises .paises-contenedor {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-bottom: 4em; }
+  body .destinos-main .destinos-paises .paises-contenedor .pais-data img {
+    border-radius: 2em;
+    border: solid 5px #ccd5ae;
+    width: 80vh;
+    height: 50vh; }
+
+body .destinos-main h3 {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-size: 5vh;
+  font-style: italic;
+  font-weight: 200;
+  margin: 20px; }
+
+body .destinos-main p {
+  font-size: 1.7vh;
+  text-align: center;
+  margin: 30px 50px; }
+
+body .nosotros-main h1 {
+  background-image: url(../assets/images/fotossurf/fotocalidad1.jpeg);
+  background-size: cover;
+  background-position: center;
+  padding: 180px;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+  font-weight: 100;
+  font-size: 12vh; }
+
+body .nosotros-main .nosotros-section h2 {
+  font-size: 2.5em;
+  text-align: center;
+  margin: 2em 0;
+  font-weight: 400;
+  color: #ccd5ae; }
+
+body .nosotros-main .nosotros-section article .quienessomos-contenedor {
+  display: flex;
+  align-items: center; }
+  body .nosotros-main .nosotros-section article .quienessomos-contenedor img {
+    width: 50%;
+    margin-left: 1em; }
+  body .nosotros-main .nosotros-section article .quienessomos-contenedor p {
+    font-size: 1em;
+    margin: 2em 0;
+    font-weight: 300;
+    margin: 0 4em;
+    text-align: center; }
+
+body .nosotros-main .nosotros-section .equipo-contenedor {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-bottom: 5em; }
+  body .nosotros-main .nosotros-section .equipo-contenedor img {
+    width: 12em; }
+  body .nosotros-main .nosotros-section .equipo-contenedor .equipo-item {
+    transition: 2s; }
+    body .nosotros-main .nosotros-section .equipo-contenedor .equipo-item p {
+      font-size: 1em;
+      font-weight: 500;
+      margin-top: 1em; }
+  body .nosotros-main .nosotros-section .equipo-contenedor .equipo-item:hover {
+    transform: scale(1.3, 1.3); }
+
+body .banner {
+  background-image: url(../assets/images/fotossurf/fotocalidad4.jpeg);
+  background-size: cover;
+  background-position: bottom;
+  padding: 180px;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+  font-weight: 100;
+  font-size: 12vh; }
+
+body .infosurf-main .infosurf-section .infosurf-article1 .historiasurf-contenedor {
+  display: flex;
+  align-items: center; }
+  body .infosurf-main .infosurf-section .infosurf-article1 .historiasurf-contenedor img {
+    width: 50%;
+    margin-left: 2em;
+    object-fit: contain; }
+  body .infosurf-main .infosurf-section .infosurf-article1 .historiasurf-contenedor p {
+    width: 50%;
+    text-align: center;
+    margin: 0 4em;
+    font-size: 0.9em;
+    font-weight: 200; }
+
+body .infosurf-main .infosurf-section h2 {
+  font-size: 2.5em;
+  text-align: center;
+  margin: 3em 0 1em 0;
+  font-weight: 400;
+  color: #ccd5ae; }
+
+body .infosurf-main .infosurf-section .infosurf-article2 .reglassurf-contenedor {
+  display: flex;
+  align-items: center; }
+  body .infosurf-main .infosurf-section .infosurf-article2 .reglassurf-contenedor img {
+    height: 20em;
+    width: 50%;
+    margin-right: 2em;
+    object-fit: contain; }
+  body .infosurf-main .infosurf-section .infosurf-article2 .reglassurf-contenedor ul {
+    width: 50%;
+    margin: 0 4em;
+    font-weight: 200;
+    font-size: 0.9em; }
+    body .infosurf-main .infosurf-section .infosurf-article2 .reglassurf-contenedor ul li {
+      margin: .5em 0; }
+
+body .infosurf-main .infosurf-section .infosurf-article3 .tablassurf-contenedor {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5em; }
+  body .infosurf-main .infosurf-section .infosurf-article3 .tablassurf-contenedor img {
+    height: 20em;
+    width: 50%;
+    margin-left: 2em;
+    object-fit: contain; }
+  body .infosurf-main .infosurf-section .infosurf-article3 .tablassurf-contenedor ul {
+    width: 50%;
+    margin: 0 4em;
+    font-weight: 200;
+    font-size: 0.9em; }
+    body .infosurf-main .infosurf-section .infosurf-article3 .tablassurf-contenedor ul li {
+      margin: .5em 0; }
+
+aside {
+  text-align: center; }
+  aside h3 {
+    padding: 1.5em 3em;
+    margin-bottom: 1em;
+    background-image: url(../assets/images/tiendaaside/bannerboards.jpg);
+    color: white;
+    text-align: center; }
+  aside h4 {
+    margin-bottom: 2em;
+    font-size: 2em;
+    text-align: center; }
+  aside h5 {
+    border: solid 2px #ccd5ae;
+    border-radius: 1em;
+    padding: 0.5em;
+    text-align: center;
+    margin: 0 10em;
+    font-size: .7em;
+    font-weight: 500; }
+  aside h6 {
+    padding-top: 1em;
+    font-size: 10px; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 0em 32em 60em 60em 5em;
+  grid-template-areas: "menu menu menu" "banner banner banner" "contenido contenido shop" "contenido contenido shop" "footer footer footer";
+  grid-row-gap: 1em; }
+
+.header-grid {
+  grid-area: menu; }
+
+.banner {
+  grid-area: banner; }
+
+.infosurf-main {
+  grid-area: contenido; }
+
+.aside-grid {
+  grid-area: shop;
+  border: solid 4px black; }
+
+.footer-grid {
+  grid-area: footer; }
+
+body .contacto-main section h1 {
+  background-image: url(../assets/images/fotossurf/fotocalidad5.jpeg);
+  background-size: cover;
+  background-position: center;
+  padding: 180px;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+  font-weight: 100;
+  font-size: 12vh; }
+
+body .contacto-main section h3 {
+  font-weight: 300;
+  margin: 2em; }
+
+body .contacto-main section form {
+  font-weight: 300;
+  margin-left: 5em;
+  margin-bottom: 5em; }
+  body .contacto-main section form input {
+    padding: .3em;
+    margin: 1em;
+    border: solid 2px #ccd5ae; }
+  body .contacto-main section form select {
+    padding: .3em;
+    margin: 1em;
+    border: solid 2px #ccd5ae; }
+  body .contacto-main section form textarea {
+    padding: .3em;
+    margin-top: .5em;
+    border: solid 2px #ccd5ae; }
+  body .contacto-main section form .boton-enviar {
+    background-color: #ccd5ae;
+    font-size: 1.3em;
+    font-weight: 300;
+    border-radius: 2em; }
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    text-align: center; }
+  .surftrips-contenedor {
+    display: inline; }
+  .surftrips-contenedor p {
+    margin-bottom: 6em;
+    text-align: center;
+    font-size: 3vh; }
+  .surftrips-text {
+    margin-bottom: 2em; }
+  #rrss a {
+    font-size: .3rem; }
+  .paises-contenedor {
+    display: inline;
+    padding: 3em; }
+  .destinos-intro h2 {
+    font-size: 1.7em;
+    padding: 2em 1em;
+    font-weight: 100; }
+  .pais-data img {
+    width: 490px;
+    height: 300px; }
+  .pais-data p {
+    font-size: .8em; }
+  .destinos-paises h2 {
+    font-size: 8vh; }
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 5em 32em 50em 50em 115em 5em;
+    grid-template-areas: "menu menu" "banner banner" "contenido contenido" "contenido contenido" "shop shop" "footer footer";
+    grid-row-gap: 1em; }
+  .destinos-intro h1 {
+    font-size: 10vh; }
+  aside {
+    margin: 1em; } }
+
+@media (max-width: 576px) {
+  nav {
+    flex-direction: column;
+    text-align: center; }
+  .home-main h1 {
+    font-size: 7vh; }
+  .home-main h2 {
+    font-size: 6vh; }
+  .home-main p {
+    font-size: 3vh; }
+  .home-main ol {
+    font-size: 3vh; }
+  .surftrips-item img {
+    width: 48vh; }
+  .surftrips-item p {
+    font-size: 5vh; }
+  .surftrips-contenedor {
+    display: inline; }
+  .surftrips-contenedor p {
+    margin-bottom: 6em;
+    text-align: center;
+    font-size: 3vh; }
+  .surftrips-text {
+    margin-bottom: 2em; }
+  #rrss a {
+    font-size: .3rem; }
+  .paises-contenedor {
+    display: inline;
+    padding: 3em; }
+  .destinos-intro h2 {
+    font-size: 4vh; }
+  .destinos-paises h2 {
+    font-size: 5vh; }
+  .pais-data h3 {
+    font-size: 3vh; }
+  .pais-data p {
+    font-size: 1vh; }
+  .pais-data img {
+    width: 30vh;
+    height: 20vh; }
+  h1 {
+    font-size: 6vh; }
+  .destinos-intro p {
+    font-size: 2; }
+  .destinos-intro h1 {
+    font-size: 4vh; }
+  .equipo-contenedor {
+    flex-direction: column; }
+  .quienessomos-contenedor {
+    flex-direction: column; }
+  .quienessomos-contenedor img {
+    width: 20em; }
+  .quienessomos-contenedor p {
+    font-size: 1.2vh;
+    margin-top: 20px; }
+  .historiasurf-contenedor {
+    flex-direction: column; }
+  .reglassurf-contenedor {
+    flex-direction: column; }
+  .tablassurf-contenedor {
+    flex-direction: column; }
+  form {
+    font-size: 2vh; }
+  .contacto-main h3 {
+    font-size: 1.3em; }
+  textarea {
+    width: 200px; }
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 5em 35em 50em 80em 115em 5em;
+    grid-template-areas: "menu" "banner" "contenido" "contenido" "shop" "footer";
+    grid-row-gap: 1em; }
+  #rrss {
+    text-align: center; } }
