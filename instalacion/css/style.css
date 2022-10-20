@@ -495,45 +495,139 @@ body .contacto-main section form {
   .contacto-main .section-contacto form textarea {
     width: 240px; } }
 
-@media (min-width: 576px) and (max-width: 768px) {
-  nav {
-    flex-direction: column;
-    text-align: center; }
-  .surftrips-contenedor {
-    display: inline; }
-  .surftrips-contenedor p {
-    margin-bottom: 6em;
+@media (min-width: 576px) and (max-width: 1024px) {
+  .home-main h1 {
+    font-size: 5em;
     text-align: center;
-    font-size: 3vh; }
-  .surftrips-text {
-    margin-bottom: 2em; }
-  #rrss a {
-    font-size: .3rem; }
-  .paises-contenedor {
-    display: inline;
-    padding: 3em; }
-  .destinos-intro h2 {
-    font-size: 1.7em;
-    padding: 2em 1em;
-    font-weight: 100; }
-  .pais-data img {
-    width: 490px;
-    height: 300px; }
-  .pais-data p {
-    font-size: .8em; }
-  .destinos-paises h2 {
-    font-size: 8vh; }
+    padding: 160px 0; }
+  .home-main section .home-article1 h2 {
+    font-size: 3em; }
+  .home-main section .home-article1 p {
+    font-size: 1.5em; }
+  .home-main section .home-article1 ol {
+    font-size: 1.3em; }
+    .home-main section .home-article1 ol li {
+      margin-top: 2em; }
+  .home-main section .home-article2 .surftrips-contenedor {
+    flex-direction: column; }
+    .home-main section .home-article2 .surftrips-contenedor .surftrips-item img {
+      width: 30em; }
+    .home-main section .home-article2 .surftrips-contenedor .surftrips-item p {
+      font-size: 1em; }
+  .destinos-main .destinos-intro .banner-destinos {
+    font-size: 3em;
+    text-align: center;
+    padding: 160px 0; }
+  .destinos-main .destinos-intro .textointro-destinos {
+    font-size: 1.2em; }
+  .destinos-main .destinos-intro .textointro2-destinos {
+    font-size: 1.2em; }
+  .destinos-main .destinos-intro a {
+    width: 2em;
+    display: inline; }
+  .destinos-main .destinos-paises article h2 {
+    font-size: 3em; }
+  .destinos-main .destinos-paises article .paises-contenedor {
+    flex-direction: column; }
+    .destinos-main .destinos-paises article .paises-contenedor .pais-data h3 {
+      font-size: 2em; }
+    .destinos-main .destinos-paises article .paises-contenedor .pais-data p {
+      font-size: 1em; }
+    .destinos-main .destinos-paises article .paises-contenedor .pais-data img {
+      width: 30em;
+      height: 19em; }
+  .nosotros-main .banner-nosotros {
+    font-size: 5em;
+    text-align: center;
+    padding: 160px 0; }
+  .nosotros-main .nosotros-section .titulos-nosotros {
+    font-size: 3em; }
+  .nosotros-main .nosotros-section article .quienessomos-contenedor {
+    flex-direction: column; }
+    .nosotros-main .nosotros-section article .quienessomos-contenedor .nosotrosfoto1 {
+      width: 30em;
+      margin-left: 0; }
+    .nosotros-main .nosotros-section article .quienessomos-contenedor .nosotrostexto {
+      font-size: 1em;
+      padding-top: 2em; }
+  .nosotros-main .nosotros-section .equipo-contenedor {
+    flex-direction: column; }
+    .nosotros-main .nosotros-section .equipo-contenedor .equipo-item {
+      margin-bottom: 2em; }
+  footer #rrss {
+    align-items: center; }
+    footer #rrss a {
+      text-align: center; }
+      footer #rrss a h3 {
+        display: none; }
+      footer #rrss a svg {
+        width: 45px; }
+  footer #copyright h3 {
+    font-size: 2em; }
   .grid-container {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 5em 32em 50em 50em 115em 5em;
+    grid-template-rows: 5em 24em 50em 130em 100em 5em;
     grid-template-areas: "menu menu" "banner banner" "contenido contenido" "contenido contenido" "shop shop" "footer footer";
     grid-row-gap: 1em; }
-  .destinos-intro h1 {
-    font-size: 10vh; }
-  aside {
-    margin: 1em; }
-  #rrss a {
+    .grid-container .banner {
+      font-size: 4em;
+      text-align: center;
+      padding: 130px 0;
+      width: 100%; }
+    .grid-container .infosurf-main .infosurf-section h2 {
+      font-size: 2.6em; }
+    .grid-container .infosurf-main .infosurf-section .infosurf-article1 .historiasurf-contenedor {
+      flex-direction: column; }
+      .grid-container .infosurf-main .infosurf-section .infosurf-article1 .historiasurf-contenedor img {
+        width: 100%;
+        margin-left: 0em; }
+      .grid-container .infosurf-main .infosurf-section .infosurf-article1 .historiasurf-contenedor p {
+        font-size: 1em;
+        margin-top: 3em;
+        width: 78%; }
+    .grid-container .infosurf-main .infosurf-section .infosurf-article2 .reglassurf-contenedor {
+      flex-direction: column; }
+      .grid-container .infosurf-main .infosurf-section .infosurf-article2 .reglassurf-contenedor ul {
+        margin: 2em 0;
+        width: 70%; }
+        .grid-container .infosurf-main .infosurf-section .infosurf-article2 .reglassurf-contenedor ul li {
+          font-size: 1em;
+          margin: 3em 0; }
+      .grid-container .infosurf-main .infosurf-section .infosurf-article2 .reglassurf-contenedor img {
+        width: 100%;
+        margin-right: 0em; }
+    .grid-container .infosurf-main .infosurf-section .infosurf-article3 .tablassurf-contenedor {
+      flex-direction: column; }
+      .grid-container .infosurf-main .infosurf-section .infosurf-article3 .tablassurf-contenedor img {
+        width: 100%;
+        margin-left: 0em; }
+      .grid-container .infosurf-main .infosurf-section .infosurf-article3 .tablassurf-contenedor ul {
+        width: 70%; }
+        .grid-container .infosurf-main .infosurf-section .infosurf-article3 .tablassurf-contenedor ul li {
+          font-size: 1.4em;
+          margin: 3em 0; }
+    .grid-container .aside-grid {
+      margin: 0 1em; }
+      .grid-container .aside-grid img {
+        width: 300px; }
+  .contacto-main .section-contacto .banner-contacto {
+    font-size: 2em;
+    padding: 180px 0;
     text-align: center; }
-    #rrss a h3 {
-      font-size: 3.5em;
-      padding: 1em; } }
+  .contacto-main .section-contacto h3 {
+    text-align: center;
+    font-size: 1.5em; }
+  .contacto-main .section-contacto form input {
+    margin: 1em 0; }
+  .contacto-main .section-contacto form label {
+    display: block; }
+  .contacto-main .section-contacto form select {
+    margin: 1em 0; }
+  .contacto-main .section-contacto form textarea {
+    width: 240px; } }
+
+@media (max-width: 1500px) {
+  .home-main section .home-article2 .surftrips-contenedor {
+    flex-direction: column; }
+  .destinos-main .destinos-paises article .paises-contenedor {
+    flex-direction: column; } }
