@@ -1,7 +1,7 @@
 .home-main {
     h1 {
     text-align: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: $fuente-principal;
     font-weight: 100;    
     background-image: url(../assets/images/indonesia/surfindonesia6.jpeg);
     background-size: cover;
@@ -14,7 +14,7 @@
     section {
         .home-article1 {
             p {
-                font-family: 'Poppins', sans-serif;
+                font-family:$fuente-principal;
                 text-align: center;
                 font-size: 3.5vh;
                 font-weight: 200;
@@ -22,14 +22,14 @@
             }
             ol {
                 text-align: left;
-                font-family: 'Poppins', sans-serif;
+                font-family: $fuente-principal;
                 font-size: 3.5vh;
                 font-weight: 200;
                 margin: 3em 4em 5em 3em;
                 list-style-type: disc;
             }
             h2 {
-                font-family: 'Poppins', sans-serif;
+                font-family: $fuente-principal;
                 text-align: center;
                 font-size: 8vh;
                 font-weight: 200;
@@ -47,13 +47,13 @@
             font-size: 2.3em;
         }
         h3 {
-            font-family: 'Poppins', sans-serif;
+            font-family: $fuente-principal;
             text-align: center;
             font-size: 2.5em;
         }
         .home-article2 {
             p{
-                font-family: 'Poppins', sans-serif;
+                font-family: $fuente-principal;
                 text-align: center;
                 font-size: .7em;
             }
@@ -72,7 +72,7 @@
                 }
                 p{
                     font-size: .8em;
-                    font-family:'Poppins', sans-serif;
+                    font-family:$fuente-principal;
                     margin-top: 1em;
                     color: #575848
                 }

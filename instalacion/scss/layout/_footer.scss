@@ -1,7 +1,7 @@
 footer {
-    background-color: #e9edc9;
+    background-color: $background-principal;
     #rrss{
-        background-color: #e9edc9;
+        background-color: $background-principal;
         height: 40px;
         display: flex;
         justify-content: space-around;
@@ -24,7 +24,7 @@ footer {
         transition: 1s;
     }
     #copyright {
-        background-color: #e9edc9;
+        background-color: $background-principal;
         font-size: .3em;
         display: flex;
         justify-content: flex-end;

@@ -15,7 +15,7 @@ html {
 
 .home-main h1 {
   text-align: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 100;
   background-image: url(../assets/images/indonesia/surfindonesia6.jpeg);
   background-size: cover;
@@ -26,7 +26,7 @@ html {
   font-size: 12vh; }
 
 .home-main section .home-article1 p {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-align: center;
   font-size: 3.5vh;
   font-weight: 200;
@@ -34,14 +34,14 @@ html {
 
 .home-main section .home-article1 ol {
   text-align: left;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 3.5vh;
   font-weight: 200;
   margin: 3em 4em 5em 3em;
   list-style-type: disc; }
 
 .home-main section .home-article1 h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-align: center;
   font-size: 8vh;
   font-weight: 200;
@@ -56,12 +56,12 @@ html {
   font-size: 2.3em; }
 
 .home-main section h3 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-align: center;
   font-size: 2.5em; }
 
 .home-main section .home-article2 p {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-align: center;
   font-size: .7em; }
 
@@ -77,7 +77,7 @@ html {
     width: 65vh; }
   .home-main section .home-article2 .surftrips-contenedor p {
     font-size: .8em;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     margin-top: 1em;
     color: #575848; }
 
@@ -141,7 +141,7 @@ body .destinos-main .destinos-paises h2 {
   font-size: 10vh;
   text-align: center;
   font-weight: 100;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: #ccd5ae;
   position: sticky;
   top: -10px; }
@@ -158,7 +158,7 @@ body .destinos-main .destinos-paises .paises-contenedor {
     height: 50vh; }
 
 body .destinos-main h3 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-align: center;
   font-size: 5vh;
   font-style: italic;
